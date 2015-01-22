@@ -1,0 +1,249 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2015 8:10:19 AM.
+Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.44
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2015 8:10:20 AM.
+Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.33
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1509652468.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2015 8:10:20 AM.
+Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec1509652468.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1509652468.dir\Debug\".
+  Creating directory "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1509652468.dir\Debug\cmTryCom.0C973FD2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1509652468.dir\Debug\cmTryCom.0C973FD2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1509652468.dir\Debug\\" /Fd"cmTryCompileExec1509652468.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1509652468.dir\Debug\\" /Fd"cmTryCompileExec1509652468.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1509652468.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1509652468.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1509652468.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1509652468.dir\Debug\testCCompiler.obj
+  cmTryCompileExec1509652468.vcxproj -> C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1509652468.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1509652468.dir\Debug\cmTryCom.0C973FD2.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1509652468.dir\Debug\cmTryCom.0C973FD2.tlog\cmTryCompileExec1509652468.lastbuildstate".
+Done Building Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec1509652468.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.62
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec196155914.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2015 8:10:21 AM.
+Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec196155914.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec196155914.dir\Debug\".
+  Creating directory "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec196155914.dir\Debug\cmTryCom.59FFA523.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec196155914.dir\Debug\cmTryCom.59FFA523.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec196155914.dir\Debug\\" /Fd"cmTryCompileExec196155914.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec196155914.dir\Debug\\" /Fd"cmTryCompileExec196155914.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec196155914.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec196155914.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec196155914.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec196155914.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec196155914.vcxproj -> C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec196155914.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec196155914.dir\Debug\cmTryCom.59FFA523.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec196155914.dir\Debug\cmTryCom.59FFA523.tlog\cmTryCompileExec196155914.lastbuildstate".
+Done Building Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec196155914.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2641096625.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2015 8:10:21 AM.
+Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec2641096625.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2641096625.dir\Debug\".
+  Creating directory "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2641096625.dir\Debug\cmTryCom.FC82C317.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2641096625.dir\Debug\cmTryCom.FC82C317.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2641096625.dir\Debug\\" /Fd"cmTryCompileExec2641096625.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2641096625.dir\Debug\\" /Fd"cmTryCompileExec2641096625.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2641096625.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2641096625.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2641096625.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2641096625.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec2641096625.vcxproj -> C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2641096625.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2641096625.dir\Debug\cmTryCom.FC82C317.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2641096625.dir\Debug\cmTryCom.FC82C317.tlog\cmTryCompileExec2641096625.lastbuildstate".
+Done Building Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec2641096625.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.43
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2411732103.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2015 8:10:22 AM.
+Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec2411732103.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2411732103.dir\Debug\".
+  Creating directory "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2411732103.dir\Debug\cmTryCom.D53ACD6E.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2411732103.dir\Debug\cmTryCom.D53ACD6E.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2411732103.dir\Debug\\" /Fd"cmTryCompileExec2411732103.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2411732103.dir\Debug\\" /Fd"cmTryCompileExec2411732103.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2411732103.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2411732103.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2411732103.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2411732103.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec2411732103.vcxproj -> C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2411732103.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2411732103.dir\Debug\cmTryCom.D53ACD6E.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2411732103.dir\Debug\cmTryCom.D53ACD6E.tlog\cmTryCompileExec2411732103.lastbuildstate".
+Done Building Project "C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\CMakeTmp\cmTryCompileExec2411732103.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.37
+
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Chilitags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Chilitags3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Codec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Decode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Detect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\EnsureGreyscale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\EstimatePose3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\FindQuads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\GrowRoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\ReadBits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Refine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\ScreenOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gbrill\Source\Repos\chilitags\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5DAD147-AFFD-4374-B44D-26200CF1BECC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_calib3d2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_contrib2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_core2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_features2d2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_flann2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_gpu2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_highgui2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_imgproc2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_legacy2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ml2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_nonfree2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_objdetect2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ocl2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_photo2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_stitching2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_superres2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ts2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_video2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_videostab2410.lib" />
+  </ItemGroup>
+</Project>

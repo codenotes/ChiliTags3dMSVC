@@ -1,0 +1,5 @@
+Need opencd installed to c:\lib (use 2.4 exe install, not the zip)
+and you need pthreads implementation, found here: 
+ftp://sourceware.org/pub/pthreads-win32/pthreads-w32-2-9-1-release.zip
+
+also installed to lib. 

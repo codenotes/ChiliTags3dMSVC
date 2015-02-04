@@ -182,9 +182,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/gbrill/Source/Repos/chilitags/MSVC
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=0
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=1
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=C:/Program Files (x86)/CMake/bin/cmake.exe
 //Path to cpack program executable.
@@ -229,6 +229,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Visual Studio 12 2013
+//Name of generator platform.
+CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Start directory with the top level CMakeLists.txt file for this
@@ -254,7 +256,7 @@ CMAKE_RC_COMPILER_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_FLAGS
 CMAKE_RC_FLAGS-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Program Files (x86)/CMake/share/cmake-3.0
+CMAKE_ROOT:INTERNAL=C:/Program Files (x86)/CMake/share/cmake-3.1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

@@ -1,4 +1,4 @@
-C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/ALL_BUILD.dir
-C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/ZERO_CHECK.dir
 C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/chilitags.dir
 C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/chilitags_static.dir
+C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/ALL_BUILD.dir
+C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/ZERO_CHECK.dir

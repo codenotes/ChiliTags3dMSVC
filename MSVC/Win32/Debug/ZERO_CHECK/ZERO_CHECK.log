@@ -1,5 +1,12 @@
-﻿Build started 1/20/2015 8:56:47 AM.
+﻿Build started 2/4/2015 2:53:32 PM.
+     1>Project "C:\Users\gbrill\Source\Repos\ChiliTags3dMSVC\MSVC\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake is re-running because C:/Users/gbrill/Source/Repos/chilitags/MSVC/CMakeFiles/generate.stamp dependency file is missing.
+     1>CUSTOMBUILD : CMake error : The source directory "C:/Users/gbrill/Source/Repos/chilitags/src" does not exist.
+         Specify --help for usage, or press the help button on the CMake GUI.
+     1>Done Building Project "C:\Users\gbrill\Source\Repos\ChiliTags3dMSVC\MSVC\ZERO_CHECK.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:00.06

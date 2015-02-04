@@ -26,7 +26,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v120</PlatformToolset>
@@ -61,7 +61,7 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\gbrill\Source\Repos\chilitags\MSVC\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">chilitags.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">chilitags</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\gbrill\Source\Repos\chilitags\MSVC\Release\</OutDir>
@@ -85,7 +85,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\lib\opencv\build\include\;C:\Users\gbrill\Source\Repos\chilitags\include\;C:\lib\pthreads.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\lib\opencv\build\include\;C:\Users\gbrill\Source\Repos\chilitags\include\;C:\lib\pthreads\pthreads.2;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -97,7 +97,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";chilitags_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";chilitags_EXPORTS;_INTERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
@@ -115,7 +115,7 @@
     <Link>
       <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>pthreadVC2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\lib\Pre-built.2\lib\x86;C:\lib\opencv\build\x86\vc12\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\lib\pthreads\Pre-built.2\lib\x86;C:\lib\opencv\build\x86\vc12\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>C:/Users/gbrill/Source/Repos/chilitags/MSVC/Debug/chilitags.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/gbrill/Source/Repos/chilitags/MSVC/Debug/chilitags.pdb</ProgramDataBaseFile>
@@ -312,6 +312,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/gbrill/Source/Repos/chilitags/src/CMakeLists.txt;C:\Users\gbrill\Source\Repos\chilitags\src\CMakeLists.txt;C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CMakeSystem.cmake;C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CMakeCCompiler.cmake;C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\3.0.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\gbrill\Source\Repos\chilitags\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\gbrill\Source\Repos\chilitags\MSVC\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -329,32 +330,28 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Refine.cpp" />
     <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\ScreenOut.cpp" />
     <ClCompile Include="C:\Users\gbrill\Source\Repos\chilitags\src\Track.cpp" />
+    <ClCompile Include="detectlive.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/gbrill/Source/Repos/chilitags/MSVC/ZERO_CHECK.vcxproj">
-      <Project>1C9EE102-C6BF-4C16-AB4C-974C6263F3C0</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_calib3d2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_contrib2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_core2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_features2d2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_flann2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_gpu2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_highgui2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_imgproc2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_legacy2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ml2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_nonfree2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_objdetect2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ocl2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_photo2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_stitching2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_superres2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ts2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_video2410.lib" />
-    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_videostab2410.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_calib3d2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_contrib2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_core2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_features2d2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_flann2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_gpu2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_highgui2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_imgproc2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_legacy2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ml2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_nonfree2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_objdetect2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ocl2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_photo2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_stitching2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_superres2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_ts2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_video2410d.lib" />
+    <Library Include="..\..\..\..\..\..\lib\opencv\build\x86\vc12\lib\opencv_videostab2410d.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

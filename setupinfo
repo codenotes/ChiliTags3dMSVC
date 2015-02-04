@@ -3,3 +3,6 @@ and you need pthreads implementation, found here:
 ftp://sourceware.org/pub/pthreads-win32/pthreads-w32-2-9-1-release.zip
 
 also installed to lib. 
+
+Also, in terms of the the dependencies and DLLS, make certain you are using debug versions of openCV libraries you get
+violations and bad data. 
